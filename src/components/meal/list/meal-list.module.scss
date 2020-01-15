@@ -1,0 +1,8 @@
+@import '../../../common-styles';
+
+.container {
+  @extend .centralized-flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
+}

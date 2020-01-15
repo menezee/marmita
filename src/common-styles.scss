@@ -13,3 +13,9 @@
     align-items: center;
   }
 }
+
+.centralized-flex {
+  @extend .flex;
+  @extend .justify-content--center;
+  @extend .align-items--center;
+}

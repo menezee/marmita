@@ -1,9 +1,7 @@
 @import '../../common-styles';
 
 .container {
-  @extend .flex;
-  @extend .justify-content--center;
-  @extend .align-items--center;
+  @extend .centralized-flex;
 }
 
 .list {
